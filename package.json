@@ -1,0 +1,41 @@
+{
+  "name": "@brakbricks/rebrickable-api",
+  "version": "0.1.1",
+  "description": "A typescript Rebrickable API client",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup",
+    "test": "jest",
+    "docs": "typedoc src/index.ts",
+    "lint": "eslint ./src",
+    "lint:fix": "eslint --fix ./src"
+  },
+  "keywords": [
+    "Lego",
+    "API",
+    "Rebrickable"
+  ],
+  "repository": {
+    "url": "git+https://github.com/brakbricks/rebrickable-api.git"
+  },
+  "homepage": "https://brakbricks.github.io/rebrickable-api/",
+  "bugs": "https://github.com/brakbricks/rebrickable-api/issues",
+  "author": "Brakbricks",
+  "license": "MIT",
+  "devDependencies": {
+    "@eslint/js": "^9.9.0",
+    "@jest/globals": "^29.7.0",
+    "@stylistic/eslint-plugin-js": "^2.6.4",
+    "@types/eslint__js": "^8.42.3",
+    "@types/jest": "^29.5.12",
+    "eslint": "^9.9.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.4",
+    "tsup": "^8.2.4",
+    "typedoc": "^0.26.5",
+    "typescript": "^5.5.4",
+    "typescript-eslint": "^8.1.0"
+  }
+}
