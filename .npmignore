@@ -5,6 +5,7 @@ coverage
 spec
 docs
 
+.prettierrc.js
 eslint.config.mjs
 jest.config.js
 tsconfig.json
